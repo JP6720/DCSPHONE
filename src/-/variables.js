@@ -64,7 +64,7 @@ const v = {
 
 v.colors = {
   //
-  primary: '#609b3a',
+  primary: '#77c0b8',
   warning: '#f1af20',
   danger: '#dc0f39',
 }
