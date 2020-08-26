@@ -391,7 +391,7 @@ class PBX extends EventEmitter {
       const params = {
         command: 'set',
         service_id: '12',
-        application_id: '22177122297',
+        application_id: '304655869323',
         user_agent: 'react-native',
         username: username + (voip ? '@voip' : ''),
         device_id,
@@ -409,7 +409,7 @@ class PBX extends EventEmitter {
       const params = {
         command: 'set',
         service_id: '13',
-        application_id: '22177122297',
+        application_id: '304655869323',
         user_agent: navigator.userAgent,
         username,
         endpoint,
