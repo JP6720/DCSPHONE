@@ -20,17 +20,17 @@ android {
   //
   signingConfigs {
     release {
-      storeFile file("../keystores/release.keystore")
-      storePassword "my-release-keyPw"
-      keyAlias "my-key-alias"
-      keyPassword "my-release-keyPw"
+//      storeFile file("../keystores/release.keystore")
+//      storePassword "my-release-keyPw"
+//      keyAlias "my-key-alias"
+//      keyPassword "my-release-keyPw"
     }
   }
   //
   defaultConfig {
     applicationId "com.dcs.phonecall"
-    versionCode 50004
-    versionName "5.0.4"
+    versionCode 50006
+    versionName "5.0.6"
     targetSdkVersion rootProject.ext.targetSdkVersion
     multiDexEnabled true
     minSdkVersion 16
